@@ -4,11 +4,7 @@
   version="3.0.2"
   name="MediaPortal PVR Client"
   provider-name="Marcel Groothuis">
-  <requires>
-    <c-pluff version="0.1"/>
-    <import addon="kodi.global.gui" version="@ADDON_GLOBAL_VERSION_GUI@"/>
-    <import addon="kodi.instance.pvr" version="@ADDON_INSTANCE_VERSION_PVR@"/>
-  </requires>
+  <requires>@ADDON_DEPENDS@</requires>
   <extension
     point="kodi.pvrclient"
     library_@PLATFORM@="@LIBRARY_FILENAME@"/>
